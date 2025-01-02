@@ -1,0 +1,248 @@
+header{
+    background: linear-gradient(rgb(106, 229, 238),rgb(62, 221, 192));
+    color: white;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+h2{
+    margin: 20 0 0 0;
+}
+
+body{
+    background: rgb(224, 224, 224);
+    color:rgb(60, 60, 60);
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#titleInvitation{
+    margin-bottom: 35px;
+}
+
+#postForm{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(62, 221, 192);
+    width: 60%;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+/* Posts */
+#postForm{
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 60%;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    margin: 3% 1%;
+    position: relative;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.postProfilePicContainer{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 5px 10px 5px 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    transition: all .5s ease;
+}
+
+.postProfilePicContainer:hover{
+    transform: translateY(-8px);
+}
+
+.profilePic{
+    width: 100%;
+}
+
+#postTitle{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+#postTitleInput{
+    border: none;
+    height: 25px;
+}
+
+#postBody{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+#postBodyInput{
+    width: 100%;
+    height: 80px;
+    border: none;
+    font-size: small;
+}
+
+#charCount{
+    margin: 0;
+    align-self: flex-end;
+}
+
+#submitButton{
+    border: none;
+    font-size: medium;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    align-self: center;
+    background-color: rgb(255, 225, 0);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#submitButton:hover{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 217, 81);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Public post */
+#postList{
+    width: 60%;
+    min-width: 700px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.publicPost{
+    padding: 25px;
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 60%;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    margin: 3% 1%;
+    position: relative;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.publicPostTitle{
+    margin: 70 0 5 0px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.publicPostBody{
+    width: 100%;
+    height: 80px;
+    border: none;
+    font-size: small;
+}
+
+.button-DE-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.DE-Button{
+    border: none;
+    font-size: medium;
+    margin: 5px;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    align-self: center;
+    background-color: rgb(255, 225, 0);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.DE-Button:hover{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 217, 81);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Edit form */
+.editForm{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 25px;
+}
+
+#editPostTitle{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+.editPostTitleInput{
+    border: none;
+    width: 100%;
+    height: 25px;
+}
+
+
+#editPostBody{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+.editPostBodyInput{
+    width: 100%;
+    height: 80px;
+    border: none;
+    font-size: small;
+}
+
+.confirmButton{
+    border: none;
+    font-size: medium;
+    margin: 5px;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    align-self: center;
+    background-color: rgb(255, 225, 0);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.confirmButton:hover{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 217, 81);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}

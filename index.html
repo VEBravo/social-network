@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Social Network</h1>
+    </header>
+
+    <h2 id="titleInvitation">See what's new on Social Network!</h2>
+    
+    <h2>Post</h2>
+    
+    <form id="postForm" onsubmit="event.preventDefault(); postData()">
+        <div class="postProfilePicContainer"><img class="profilePic" src="" alt="Profile Picture"></div>
+        
+        
+        <label id="postTitle" for="postTitleInput">Title</label>
+        <input type="text" id="postTitleInput" placeholder="Select a nice title" required>
+        
+        <label id="postBody" for="postBodyInput">Body</label>
+        <textarea rows="5" cols="50" type="text" id="postBodyInput" placeholder="Write your ideas here" required></textarea>
+        <p id="charCount">300 characters left</p>
+        
+        <button id="submitButton" type="submit">Post</button>
+    </form>
+    
+    <h2>Posts</h2>
+    <ul id="postList">
+    </ul>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
