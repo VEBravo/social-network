@@ -8,10 +8,10 @@
 ## Imagen
 ¡Haga click en la imagen para interactuar con la página!
 <div style="text-align: center;">
-  <a href="https://mini-proyecto-log-in.netlify.app/" target="_blank">
+  <a href="https://social-network-valentin.netlify.app" target="_blank">
     <img src="assets/pic1.png" alt="Imagen formulario" width=100%>
   </a>
-  <a href="https://mini-proyecto-log-in.netlify.app/" target="_blank">
+  <a href="https://social-network-valentin.netlify.app" target="_blank">
     <img src="assets/pic2.png" alt="Imagen formulario" width=100%>
   </a>
 </div>
